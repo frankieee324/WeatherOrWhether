@@ -1,5 +1,5 @@
-const searchBar = $('city-search-bar');
-const searchButton = $('city-search-button');
+const searchBar = document.getElementById('city-search-bar');
+const searchBtn = document.getElementById('city-search-button');
 
 const apiKey = 'd2e89d544d674ffaab0ccb70c85ebc3d';
 
@@ -12,7 +12,7 @@ const apiKey = 'd2e89d544d674ffaab0ccb70c85ebc3d';
 const weatherApiUrlBase = 'https://api.openweathermap.org/data/2.5/weather?appid=' + apiKey + '&units=imperial';
 const locationByNameUrlBase = 'http://api.openweathermap.org/geo/1.0/direct?appid=' + apiKey;
 
-searchBtnElement.on('click', showWeather)
+searchBtnElement.addEventListener('click', showWeather)
 
 
 function showWeather(event) {
@@ -22,7 +22,7 @@ function showWeather(event) {
 
     if (cityName === '') {
         console.log('TODO: Alert or toast to show invalid input')
-        window.alert('You need to put in a city name')
+        window.alert('Please enter city name')
         return
     }
     showTodayWeather(cityName);
