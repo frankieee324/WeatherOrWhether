@@ -12,7 +12,7 @@ const apiKey = 'd2e89d544d674ffaab0ccb70c85ebc3d';
 const weatherApiUrlBase = 'https://api.openweathermap.org/data/2.5/weather?appid=' + apiKey + '&units=imperial';
 const locationByNameUrlBase = 'http://api.openweathermap.org/geo/1.0/direct?appid=' + apiKey;
 
-searchBtnElement.addEventListener('click', showWeather)
+searchBtnElement.on('click', showWeather)
 
 
 function showWeather(event) {
