@@ -1,0 +1,29 @@
+*{
+    box-sizing: content-box;
+  }
+  
+  .jumbotron {
+    padding: 10px;
+  }
+  
+  .icon {
+    position: absolute;
+    margin-top: -90px;
+    margin-left:-40px;
+  }
+  
+  .iconSmall{
+    width: 40px;
+  }
+  
+  h5{
+    font-size: 80%;
+  }
+  
+  .card p{
+    font-size: 80%;
+  }
+  
+  .cityName{
+    padding-left:50px;
+  }

@@ -6,6 +6,8 @@
 
 Weather app to show the 5 day and current forecast for the weather.
 
+
+
 ## Table of Contents 
 
 - [Installation](#installation)
