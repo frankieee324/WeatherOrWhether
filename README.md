@@ -19,6 +19,7 @@ Weather app to show the 5 day and current forecast for the weather.
 
 Just need a browswer that runs HTML 5. (Google Chrome, Firefox, Edge etc
 )
+[Deployed Link](https://frankieee324.github.io/WeatherOrWhether/)
 ## Usage
 
 Type in city you would like to see the weather of and get the five day forecast. 
